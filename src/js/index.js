@@ -14,7 +14,7 @@ criar um evento de clique na listagem para realizar ação
 - adicionar classe aberto no cartão correspondente ao id do clique
 - remover classe ativo do item da listagem atual
 - adicionar classe ativo no item da listagem clicado
-
+- voltar a tela para o topo após o clique
 */
 
 // criar duas variáveis no js para utilizar os elementos da tela
@@ -43,5 +43,9 @@ listaSelecaoPokemons.forEach(pokemon => {
         // - adicionar classe ativo no item da listagem clicado
         const pokemonParaSelecionar = document.getElementById(idPokemonSelecionado)
         pokemonParaSelecionar.classList.add('ativo')
+        
+        // - voltar a tela para o topo após o clique
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0;
     })
 })
