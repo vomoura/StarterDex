@@ -14,10 +14,4 @@
 
 ## Layout 
 ### Desktop:
-<img src="src/imagnes/layout.png">
-
-<hr>
-
-### Mobile:
-<img alt="Demo" src="src/img/pokedex-mobile.gif">
- 
+<img src="src/imagens/layout.png">
