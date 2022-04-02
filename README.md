@@ -14,7 +14,7 @@
 
 ## Layout 
 ### Desktop:
-<img src="src/img/pokedex.gif">
+<img src="src/imagnes/layout.png">
 
 <hr>
 
